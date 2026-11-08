@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\myProjects\\Android\\Quotes\\Quotes\\Quotes.csproj": {}
+  },
+  "projects": {
+    "D:\\myProjects\\Android\\Quotes\\Quotes\\Quotes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\myProjects\\Android\\Quotes\\Quotes\\Quotes.csproj",
+        "projectName": "Quotes",
+        "projectPath": "D:\\myProjects\\Android\\Quotes\\Quotes\\Quotes.csproj",
+        "packagesPath": "C:\\Users\\thcplusplus\\.nuget\\packages\\",
+        "outputPath": "D:\\myProjects\\Android\\Quotes\\Quotes\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\thcplusplus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

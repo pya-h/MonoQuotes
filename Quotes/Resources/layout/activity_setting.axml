@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+        <TextView
+              style="?android:listSeparatorTextViewStyle"
+              android:fontFamily="casual"
+              android:textStyle="bold"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/normal_widget_margin"
+              android:paddingStart="@dimen/item_padding_start"
+              android:text="@string/text_setting_app_theme_title" />
+        <ToggleButton
+              style="?android:listSeparatorTextViewStyle"
+              android:id="@+id/btn_set_app_theme"
+              android:fontFamily="casual"
+              android:textStyle="bold"
+              android:textAllCaps="false"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="@dimen/detail_text_size"
+              android:layout_margin="@dimen/normal_widget_margin"/>
+        <TextView
+              style="?android:listSeparatorTextViewStyle"
+              android:fontFamily="casual"
+              android:textStyle="bold"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/normal_widget_margin"
+              android:paddingStart="@dimen/item_padding_start"
+              android:text="@string/text_setting_app_fontsize_title" />
+        <ToggleButton
+              style="?android:listSeparatorTextViewStyle"
+              android:id="@+id/btn_set_app_fontsize"
+              android:fontFamily="casual"
+              android:textStyle="bold"
+              android:textAllCaps="false"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="@dimen/detail_text_size"
+              android:layout_margin="@dimen/normal_widget_margin"/>
+</LinearLayout>

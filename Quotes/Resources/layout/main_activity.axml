@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:apk="http://schemas.android.com/apk/res/android"
+    apk:orientation="vertical"
+    apk:layout_width="match_parent"
+    apk:layout_height="match_parent">
+    <ListView
+        apk:id="@android:id/list"
+        apk:layout_height="0dp"
+        apk:layout_width="match_parent"
+        apk:layout_weight="10" />
+    <LinearLayout
+        apk:layout_width="match_parent"
+        apk:layout_height="@dimen/short_detail_layout_height"
+        apk:layout_marginTop="@dimen/short_detail_marginTop"
+        apk:orientation="horizontal">
+        <TextView
+            apk:id="@+id/txt_short_detail"
+            apk:layout_height="@dimen/short_detail_layout_height"
+            apk:layout_width="0dp"
+            apk:layout_weight="10"
+            apk:maxLines="2"
+            apk:fontFamily="casual"
+            apk:textStyle="bold"
+            apk:textSize="@dimen/short_detail_text_size"
+            apk:textColor="#FF00FF00"
+            apk:gravity="center"
+            apk:paddingLeft="@dimen/short_detail_paddingLeft"
+            apk:drawableLeft="@drawable/ic_info_outline_black_24dp"
+            apk:layout_marginBottom="@dimen/large_widget_margin"
+            apk:layout_marginLeft="@dimen/large_widget_margin" />
+        <Button
+            apk:id="@+id/btn_add"
+            apk:layout_width="@dimen/button_add_width"
+            apk:layout_height="@dimen/button_add_height"
+            apk:text="@string/add_button"
+            apk:layout_gravity="right"
+            apk:textColor="#000000"
+            apk:textSize="@dimen/button_large_text_size"
+            apk:fontFamily="casual"
+            apk:textStyle="bold"
+            apk:gravity="center"
+            apk:background="@drawable/button_background"
+            apk:layout_marginBottom="@dimen/large_widget_margin"
+            apk:layout_marginRight="@dimen/large_widget_margin" />
+    </LinearLayout>
+</LinearLayout>
